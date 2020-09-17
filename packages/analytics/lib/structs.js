@@ -28,6 +28,8 @@ const Item = struct({
   item_list_name: 'string?',
   item_location_id: 'string?',
   item_variant: 'string?',
+  price: 'string?',
+  quantity: 'string?',
 });
 
 export const ScreenView = struct({
